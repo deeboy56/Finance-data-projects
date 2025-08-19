@@ -1,0 +1,13 @@
+# Gold Price Volatility Modeling with GARCH(1,1)
+
+## 📌 Project Overview
+This project analyzes **daily gold price data** and models its volatility using a **GARCH(1,1)** framework.  
+The aim is to study volatility clustering in financial time series through **data visualization, statistical tests, and time series modeling**.
+
+The workflow includes:
+1. **Data Collection** – Import daily gold price data from Kaggle datasets.  
+2. **Preprocessing & Returns Calculation** – Clean and transform prices into log/percentage returns.  
+3. **Exploratory Data Analysis (EDA)** – Summary statistics, skewness, kurtosis, and normality checks.  
+4. **Time Series Analysis** – Autocorrelation plots (ACF/PACF), ARCH effect testing.  
+5. **Volatility Modeling** – Fit a **GARCH(1,1)** model.  
+6. **Visualization & Insights** – Plot volatility against returns and interpret results.
